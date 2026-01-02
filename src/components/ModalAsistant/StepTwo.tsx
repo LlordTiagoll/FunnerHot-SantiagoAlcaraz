@@ -39,13 +39,14 @@ const StepTwo = ({ form, setForm, onBack, onSave }: Props) => {
   return (
     <div className="space-y-4">
       <h3 className="text-lg font-semibold">Paso 2</h3>
-
       {(["short", "medium", "long"] as const).map((key) => (
         <div key={key}>
-          <label className="block text-sm font-medium capitalize">{key}</label>
+          <label className="block text-sm font-medium capitalize text-gray-600">
+            {key}
+          </label>
           <input
             type="number"
-            className="w-full rounded-md border p-2"
+            className="w-full rounded-md border border-gray-300 p-2 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
             value={form.responseLength[key]}
             onChange={(e) => updateValue(key, Number(e.target.value))}
           />

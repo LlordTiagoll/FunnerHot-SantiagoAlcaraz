@@ -67,7 +67,7 @@ const Training = () => {
             value={text}
             onChange={(e) => setText(e.target.value)}
             rows={10}
-            className="w-full rounded-md border p-3 resize-none"
+            className="w-full rounded-md border p-3 resize-none text-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent "
             placeholder="Escribe aquí cómo debe comportarse el asistente..."
           />
 

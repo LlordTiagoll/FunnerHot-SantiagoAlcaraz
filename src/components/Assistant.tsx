@@ -53,7 +53,7 @@ const AssistantPage = () => {
         <div className="mx-auto max-w-[1050px] rounded-xl bg-white p-4 shadow-md">
           <AssistantHeader onCreate={() => setModalMode("create")} />
 
-          <div className="hidden lg:grid md:grid grid-cols-4 gap-3 text-gray-500 border-b pb-2">
+          <div className="hidden lg:grid md:grid grid-cols-4 gap-3 text-black pb-2">
             <span>Nombre</span>
             <span>Lenguaje</span>
             <span>Tono</span>
