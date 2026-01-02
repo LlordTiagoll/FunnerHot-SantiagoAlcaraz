@@ -1,0 +1,33 @@
+@import "tailwindcss";
+:root {
+  font-family:  sans-serif;
+}
+.mainColor{
+  background-color: #2196f3;
+}
+.secondaryColor{
+  background-color: #90caf9;
+}
+.thirdColor{
+
+  background-color: #e3f2fd;
+}
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+body {
+ background-color: rgb(248, 248, 248);
+}
+
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+
